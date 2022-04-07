@@ -1,7 +1,6 @@
-def authenticate(login, password):
+def authenticate(login=1, password=1):
     if login == login & password == password:
-        return 'login is correct'
+        print('login is correct')
     else:
-        return 'login is incorrect'
-
-
+        print('login is incorrect')
+    print('я тут')
