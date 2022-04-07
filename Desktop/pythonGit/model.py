@@ -33,4 +33,5 @@ class UNet(nn.Module):
         logits = self.outc(x)
         return logits
 
-    print('test git olololo')
+    print('test git new')
+    
