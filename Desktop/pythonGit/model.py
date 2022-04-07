@@ -34,4 +34,3 @@ class UNet(nn.Module):
         return logits
 
     print('test git new')
-    
